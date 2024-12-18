@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opay</title>
+</head>
+<style>
+    body{
+        display: grid;
+        justify-content: center;
+        position: relative;
+    }
+    #app{
+        width: 400px;
+    }
+    .nav-header{
+        height: 50px;
+        /* border: 1px solid brown; */
+        display: flex;
+    }
+    .div1{
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div2{
+        /* border: 1px solid green; */
+        height: 100%;
+        width: 50%;
+    }
+    .div3{
+        /* border: 1px solid blue; */
+        height: 100%;
+        width: 40%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .profile-img{
+        width: 50%;
+        border-radius: 50%;
+    }
+    .all-caps{
+        text-transform: uppercase;
+    }
+    .div3-icons{
+        width: 30px;
+        margin: 10px;;
+    }
+    .dashboard{
+        height: 90px;
+        /* border: 1px solid green; */
+        background-color: rgb(10, 208, 10);
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    
+    
+         margin-top: 8%;
+    }
+       
+    .balance-img{
+        width: 7%;
+        border-radius: 20%;
+        background-color: white;
+        margin: 4% 0% auto 3%;
+        
+    
+    }
+    .alph-caps {
+        text-decoration-color: white;
+        
+        display: inline-block;
+        margin: 3% auto auto 0%;
+        color: white;
+        
+    }
+    .eye-img{
+        width: 6%;
+        border-radius: 50%;
+    margin: 4% 5% auto auto ;
+    background-color: white;
+    color: white;
+
+    } 
+
+    .dash2{
+    padding: 24% auto auto 24%;
+}
+    .dash3{
+    padding: 24% auto auto 24%; 
+}
+    
+
+    .alph1-cap{
+        margin-top: 4%;
+        color: white;
+        margin-left: 25%;
+
+        
+    }
+
+.alph2-cap{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin-left: 40%;
+    justify-content: center;
+    margin-top: 10%;
+    text-align-last: center;
+    /* display: flex; */
+    
+    
+}
+.star{
+    color: white;
+    margin-left: 4%;
+
+}
+
+ /***.content{
+    height: 90px;
+    /* border: 1px solid green;  
+    border-radius: 17%;
+    margin-top: 3%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+ }*/
+ .tent1{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid lightgreen; */
+    background-color: lightblue;
+    border-radius: 22%;
+    /* position: relative; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    margin-left:33%;
+    margin-right: 5%;
+    margin-top: 20%;
+ }
+
+#transact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 150px;
+    /* border: 1px solid green;  */
+    border-radius: 17%;
+    margin-top: 3%;
+    background-color: aliceblue;
+    
+}
+
+.tent2{
+
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid lightgreen; */
+    background-color: lightblue;
+    border-radius: 22%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:30%;
+    margin-top: 18%;
+    /* margin-bottom: 20%; */
+    /* align-items: center; */
+    /* float: right; */
+    /* justify-content: center; */
+    
+}
+
+#transfer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90px;
+    /* border: 1px solid green;  */
+    border-radius: 17%;
+    margin-top: 3%;
+    background-color: aliceblue;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+ #voucher{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(230, 241, 107);
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+
+ }
+ p.charge{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5%;
+ }
+
+
+</style>
+<body>
+    <section id="app">
+        <header>
+            <div class="nav-header">
+                <div class="div1">
+                    <img class="profile-img" src="dummy.jpg" alt="">
+                </div>
+                <div class="div2">
+                    <h3 class="all-caps">Hi, Oyinkansola</h3>
+                </div>
+                <div class="div3">
+                    <div class="div3-div1"> <img class="div3-icons" src="headset.svg" alt=""> </div>
+                    <div class="div3-div2"> <img class="div3-icons" src="scan-barcode.svg" alt=""> </div>
+                    <div class="div3-div3"> <img class="div3-icons" src="bell.svg" alt=""> </div>
+                </div>
+            </div>
+        </header>
+        <main>
+        <div class="dashboard">
+
+                <!-- <img class="balance-img"  src="shield.svg" alt="">  -->
+            
+            <div class="dash2">
+                <img class="balance-img"  src="shield.svg" alt=""> 
+                <p class="alph-caps"> Available Balance </p>
+                <img class="eye-img" src="hidden.svg" alt=""> 
+                <p class="star">****</p>
+            </div>
+        
+        
+        
+          <!-- <div class="dash3">
+                 <img class="eye-img" src="hidden.svg" alt="">
+            </div> -->
+        <div class="dash 3">
+                <p class="alph1-cap">Transaction History    ></p>
+                <p class="alph2-cap">+ Add money </p>
+                
+            </div>
+            </div>
+
+            <section id="transfer">
+            <div class="tent1"></div>
+
+            <div class="tent1"></div>
+
+            <div class="tent1"></div>
+
+            </section>
+
+            
+            <section id="transact">
+
+                <div class="tent2"></div>
+
+                <div class="tent2"></div>
+                
+                <div class="tent2"></div>
+
+                <div class="tent2 "></div>
+
+                <div class="tent2"></div>
+
+                <div class="tent2"></div>
+
+                <div class="tent2"></div>
+
+                <div class="tent2"></div>
+
+            </section>
+            <div id="voucher">
+                <p class="charge">Get #99 off your recharge</p>
+            </div>
+
+
+            
+
+        
+
+
+
+                                
+                        
+                                    
+                    
+
+            
+     
+       
+        </main>
+        <footer>
+    
+        </footer>
+    </section>
+    
+</body>
+</html>
